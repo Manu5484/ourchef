@@ -1,0 +1,135 @@
+.inputform{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 20px 40px 10px 40px;
+}
+
+.inputform input{
+  height: 60%;
+  flex: 1;
+  max-width: 700px;
+  outline: none;
+  padding-left: 10px;
+  font-size: 20px;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+
+.inputform button{
+  padding: 20px 50px;
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  transition: box-shadow .2s linear;
+}
+
+.inputform button:hover{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.747);
+  transform:translate(0px,-1px);
+}
+
+.inputform button:active{
+  transform:translate(0px,1px);
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.main ul{
+  align-self: center;
+}
+
+.main h2{
+  text-align: center;
+  margin: 0;
+}
+
+.main p{
+  text-align: center;
+  font-size: 18px;
+}
+
+.main ul li{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.recipeGenerate{
+  height: 170px;
+  display: flex;
+  width: 800px;
+  background-color: rgba(128, 128, 128, 0.457);
+  align-self: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.generateButton{
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.generateButton:hover{
+  background-color: rgb(251, 179, 45);
+}
+
+.generateButton:active{
+  background-color: rgb(249, 191, 82);
+}
+
+/* .recipecontent{
+  align-self: center;
+} */
+
+.recipecontent h1{
+  text-align: center;
+}
+
+.reactMarkDown p{
+  font-size: 25px;
+  margin: 30px 0px 10px 0px;
+}
+
+.reactMarkDown{
+  margin: 0px 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reactMarkDown strong{
+  font-size: 35px;
+}
+
+.reactMarkDown ul{
+  align-self: center;
+  margin-top: 0px;
+}
+
+.reactMarkDown ol{
+  align-self: center;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.reactMarkDown ol li,.reactMarkDown ul li{
+  font-size: 23px;
+}
+
+.reactMarkDown li{
+  line-height: 1.6;
+
+}
