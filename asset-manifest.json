@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ourchef/static/css/main.972fbfa8.css",
+    "main.js": "/ourchef/static/js/main.e530d504.js",
+    "static/js/488.6cd655e5.chunk.js": "/ourchef/static/js/488.6cd655e5.chunk.js",
+    "index.html": "/ourchef/index.html",
+    "main.972fbfa8.css.map": "/ourchef/static/css/main.972fbfa8.css.map",
+    "main.e530d504.js.map": "/ourchef/static/js/main.e530d504.js.map",
+    "488.6cd655e5.chunk.js.map": "/ourchef/static/js/488.6cd655e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.972fbfa8.css",
+    "static/js/main.e530d504.js"
+  ]
+}
