@@ -15,7 +15,7 @@ You are an assistant that receives a list of ingredients that a user has and sug
 // your API calls can be made. Doing so will keep your
 // API keys private.    
 
-const hf = new HfInference('#')
+const hf = new HfInference('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')
 
 export async function getRecipeFromMistral(ingrident_arr) {
     const ingredientsString = ingrident_arr.join(", ")
